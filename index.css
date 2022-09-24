@@ -1,0 +1,122 @@
+body{
+    background-color:blueviolet;
+    color:white;
+}
+#title{
+    text-align: center;
+    margin-top:40px;
+    font-family: 'Poppins', sans-serif;
+}
+#description{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    line-height:25,2px;
+    font-size:18px;
+    margin:0px 20px 40px;
+}
+#survey-form{
+    background-color:rgba(27, 27, 50, 0.8);
+    width:700px;
+    height:auto;
+    margin:0 auto;
+    border-radius: 5px;
+    padding-top:40px;
+}
+.normal,select{
+    margin-left:50px;
+    display:block;
+    font-family:  'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+[type=text],[type=email],[type=number],select{
+    width:85%;
+    height:35px;
+    border-radius: 6px;
+    border-color:white;
+    margin-bottom: 20px;
+    margin-left:50px;
+    font-family:  'Poppins', sans-serif;
+}
+[placeholder]{
+    font-size:16px;
+}
+.radio{
+    margin-left:50px;
+    font-family:  'Poppins', sans-serif;
+    padding-bottom: 20px;
+    font-size:18px;
+    
+}
+.tagop{
+    width:85%;
+    height:70px;
+    border-radius: 6px;
+    border-color:white;
+    margin-bottom: 20px;
+    margin-left:50px;
+    font-family: 'Poppins', sans-serif;
+}
+[type=submit]{
+    width:80%;
+    background-color:rgb(55, 175, 101);
+    color:white;
+    height:50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+[type=radio],[type=checkbox]{
+    height:20px ;
+    width: 20px;
+}
+textarea{
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    height:120px;
+    width:600px;
+    resize:none;
+    margin-bottom: 40px;
+}
+input[class=radio]{
+    vertical-align: bottom;
+}
+label[class=normal]{
+    font-size: 18px;
+}
+select{
+    width:86%;
+    height:43px;
+    border-radius: 6px;
+    border-color:white;
+    margin-bottom: 20px;
+    margin-left:50px;
+    font-family:  'Poppins', sans-serif;
+    font-size:16px;
+}
+@media (max-width:725px){
+    textarea{
+        width:80%;
+
+    }
+    .normal,select,[type=text],[type=email],[type=number],select,.radio,.tagop,textarea,select{
+        margin-left:30px;
+    }
+    [type=submit]{
+        margin-left: 60px;
+    }
+    #survey-form{
+        width:600px;
+    }
+}
+@media (max-width:600px){
+    #survey-form{
+        width:450px;
+    }
+    [type=submit]{
+        margin-left: 40px;
+    }
+}
